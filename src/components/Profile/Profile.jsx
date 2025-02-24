@@ -28,12 +28,12 @@ export default function Profile({
                     <span className={styles.statsText}>{followers}</span>
                 </li>
                 <li className={styles.statsListItem}>
-                    <span className={styles.statsText}>{views}</span>
-                    <span>2000</span>
+                    <span className={styles.statsText}>Views</span>
+                    <span>{views}</span>
                 </li>
                 <li className={styles.statsListItem}>
-                    <span className={styles.statsText}>{likes}</span>
-                    <span>3000</span>
+                    <span className={styles.statsText}>Likes</span>
+                    <span>{likes}</span>
                 </li>
             </ul>
         </div>
